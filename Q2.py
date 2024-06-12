@@ -1,9 +1,9 @@
-varialOne = False
-varialTwo = "Hello World"
-varialThree = 1.618
-varialFour = 490
+variavelInt = 8723
+variavelFloat = 98.56
+variavelString = 'hello world'
+variavelBool = True
 
-print(f'A variável varialOne tem valor {varialOne} e é do tipo {type(varialOne)}')
-print(f'A variável varialTwo tem valor {varialTwo} e é do tipo {type(varialTwo)}')
-print(f'A variável varialThree tem valor {varialThree} e é do tipo {type(varialThree)}')
-print(f'A variável varialFour tem valor {varialFour} e é do tipo {type(varialFour)}')
+print(f'a primeira variável é igual a {variavelInt} e é do tipo {type(variavelInt)}')
+print(f'a segunda variável é igual a {variavelFloat} e é do tipo {type(variavelFloat)}')
+print(f'a terceira variável é igual a {variavelString} e é do tipo {type(variavelString)}')
+print(f'a quarta variável é igual a {variavelBool} e é do tipo {type(variavelBool)}')
