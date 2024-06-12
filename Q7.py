@@ -1,11 +1,8 @@
-nome = input("Digite o nome do aluno(a): ")
-disciplina = input("Digite a disciplina: ")
-nota1 = float(input("Digite a nota parcial: "))
-nota2 = float(input("Digite a nota bimestral: "))
-media = (nota1 + nota2)/2
-print()
-print(f'A média de {nome} é {media} na disciplina {disciplina}')
-if media >= 6:
-    print(nome + " está aprovado na disciplina " + disciplina)
+nome = input('digite seu nome: ')
+disciplina = input('digite sua disciplina: ')
+unota = float(input('digite a primeira nota: '))
+dnota = float(input('digite a segunda nota: '))
+if (unota + dnota) / 2 >= 6:
+    print(f'{nome} está aprovado na disciplina {disciplina}')
 else:
-    print(nome + " está reprovado na disciplina " + disciplina)
+    print(f'{nome} está reprovado na disciplina {disciplina}')
