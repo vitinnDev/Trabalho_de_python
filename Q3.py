@@ -1,2 +1,2 @@
-frase = input("Digite uma frase: ")
-print(f'A frase "{frase}" tem {len(frase)} caracteres')
+frase = input('digite uma frase: ')
+print(f'a frase tem {len(frase)} caracteres')
