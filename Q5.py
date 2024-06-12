@@ -1,7 +1,7 @@
-hora = int(input("Digite o horário (formato de 24 horas): "))
-if hora >= 0 and hora < 12:
-    print("Está de manhã")
-elif hora >= 12 and hora < 18:
-    print("Está de tarde")
+horas = int(input('digite alguma hora: '))
+if horas >= 0 and horas < 12:
+    print('está de manhã')
+elif horas >= 12 and horas < 18:
+    print('está de tarde')
 else:
-    print("Está de noite")
+    print('está de noite')
