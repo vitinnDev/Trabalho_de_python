@@ -1,4 +1,3 @@
-nome = input("Qual é o seu nome? ")
-sobrenome = input("Qual é o seu sobrenome? ")
-nomeCompleto = nome + " " + sobrenome
-print("Seu nome completo é: " + nomeCompleto)
+nome = input('qual é seu nome? ')
+sobrenome = input('qual é seu sobrenome? ')
+print(f'seu nome é {nome} {sobrenome}'
